@@ -9,28 +9,29 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Assignment2">
-        <activity android:name=".Login"></activity>
-        <activity android:name=".SignUp" />
-        <activity android:name=".LoginIntro" />
-        <activity
-            android:name=".ui.login.Loginintro"
-            android:label="@string/title_activity_loginintro" />
-        <activity
-            android:name=".ui.login.LoginActivity"
-            android:label="@string/title_activity_login" />
-        <activity
-            android:name=".ui.login.SignUp"
-            android:label="@string/title_activity_sign_up" />
-        <activity
-            android:name=".ui.login.loginActivity"
-            android:label="@string/title_activity_login" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".activities.Login"></activity>
+        <activity android:name=".activities.SignUp"></activity>
+        <activity android:name=".activities.LoginIntro"></activity>
+<!--        <activity-->
+<!--            android:name=".LoginIntro"-->
+<!--            android:label="@string/title_activity_loginintro" />-->
+<!--        <activity-->
+<!--            android:name=".ui.login.Login"-->
+<!--            android:label="@string/title_activity_login" />-->
+<!--        <activity-->
+<!--            android:name=".ui.login.SignUp"-->
+<!--            android:label="@string/title_activity_sign_up" />-->
+<!--        <activity-->
+<!--            android:name=".ui.login.loginActivity"-->
+<!--            android:label="@string/title_activity_login" />-->
+        <activity android:name=".activities.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".activities.QuestionActivity$QuestionActivity" />
     </application>
 
 </manifest>

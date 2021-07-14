@@ -12,4 +12,5 @@
     <string name="login_failed">"Login failed"</string>
     <string name="title_activity_sign_up">SignUp</string>
     <string name="title_activity_loginintro">Loginintro</string>
+    <string name="LoginNow">LoginNow</string>
 </resources>

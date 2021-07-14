@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Login">
+    tools:context=".activities.Login">
 
     <LinearLayout
         android:layout_width="0dp"
@@ -19,11 +19,11 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <TextView
-            android:textColor="@color/colorPrimaryText"
             style="@style/TextAppearance.AppCompat.Title"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Login Now" />
+            android:text="LoginNow"
+            android:textColor="@color/colorPrimaryText" />
 
         <TextView
             android:textColor="@color/colorPrimaryText"

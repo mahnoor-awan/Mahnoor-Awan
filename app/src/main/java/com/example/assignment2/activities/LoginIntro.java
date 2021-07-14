@@ -1,6 +1,5 @@
-package com.example.assignment2;
+package com.example.assignment2.activities;
 
-import android.view.View.OnClickListener;
 import android.widget.Toast;
 import android.content.Intent;
 import android.view.View;
